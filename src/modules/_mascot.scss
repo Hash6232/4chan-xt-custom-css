@@ -1,0 +1,66 @@
+body.is_index .board::before,
+body.is_thread .thread>.opContainer::before {
+    background-repeat: no-repeat;
+}
+
+// Pseudo randomization logic
+body.is_index .board::before,
+body.is_thread .thread>.opContainer[id$="0"]::before {
+    background-image: var(--mascot-general-0, var(--mascot-0));
+    background-position: var(--mascot-general-0-pos, var(--mascot-0-pos, var(--mascot-pos)));
+    background-size: var(--mascot-general-0-size, var(--mascot-0-size, var(--mascot-size)));
+}
+
+body.is_thread .thread>.opContainer[id$="1"]::before {
+    background-image: var(--mascot-general-1, var(--mascot-general-0, var(--mascot-1, var(--mascot-0))));
+    background-position: var(--mascot-general-1-pos, var(--mascot-general-0-pos, var(--mascot-1-pos, var(--mascot-0-pos, var(--mascot-pos)))));
+    background-size: var(--mascot-general-1-size, var(--mascot-general-0-size, var(--mascot-1-size, var(--mascot-0-size, var(--mascot-size)))));
+}
+
+body.is_thread .thread>.opContainer[id$="2"]::before {
+    background-image: var(--mascot-general-2, var(--mascot-general-0, var(--mascot-2, var(--mascot-0))));
+    background-position: var(--mascot-general-2-pos, var(--mascot-general-0-pos, var(--mascot-2-pos, var(--mascot-0-pos, var(--mascot-pos)))));
+    background-size: var(--mascot-general-2-size, var(--mascot-general-0-size, var(--mascot-2-size, var(--mascot-0-size, var(--mascot-size)))));
+}
+
+body.is_thread .thread>.opContainer[id$="3"]::before {
+    background-image: var(--mascot-general-3, var(--mascot-general-1, var(--mascot-general-0, var(--mascot-3, var(--mascot-1, var(--mascot-0))))));
+    background-position: var(--mascot-general-3-pos, var(--mascot-general-1-pos, var(--mascot-general-0-pos, var(--mascot-3-pos, var(--mascot-1-pos, var(--mascot-0-pos, var(--mascot-pos)))))));
+    background-size: var(--mascot-general-3-size, var(--mascot-general-1-size, var(--mascot-general-0-size, var(--mascot-3-size, var(--mascot-1-size, var(--mascot-0-size, var(--mascot-size)))))));
+}
+
+body.is_thread .thread>.opContainer[id$="4"]::before {
+    background-image: var(--mascot-general-4, var(--mascot-general-2, var(--mascot-general-0, var(--mascot-4, var(--mascot-2, var(--mascot-0))))));
+    background-position: var(--mascot-general-4-pos, var(--mascot-general-2-pos, var(--mascot-general-0-pos, var(--mascot-4-pos, var(--mascot-2-pos, var(--mascot-0-pos, var(--mascot-pos)))))));
+    background-size: var(--mascot-general-4-size, var(--mascot-general-2-size, var(--mascot-general-0-size, var(--mascot-4-size, var(--mascot-2-size, var(--mascot-0-size, var(--mascot-size)))))));
+}
+
+body.is_thread .thread>.opContainer[id$="5"]::before {
+    background-image: var(--mascot-general-5, var(--mascot-general-3, var(--mascot-general-1, var(--mascot-general-0, var(--mascot-5, var(--mascot-3, var(--mascot-1, var(--mascot-0))))))));
+    background-position: var(--mascot-general-5-pos, var(--mascot-general-3-pos, var(--mascot-general-1-pos, var(--mascot-general-0-pos, var(--mascot-5-pos, var(--mascot-3-pos, var(--mascot-1-pos, var(--mascot-0-pos, var(--mascot-pos)))))))));
+    background-size: var(--mascot-general-5-size, var(--mascot-general-3-size, var(--mascot-general-1-size, var(--mascot-general-0-size, var(--mascot-5-size, var(--mascot-3-size, var(--mascot-1-size, var(--mascot-0-size, var(--mascot-size)))))))));
+}
+
+body.is_thread .thread>.opContainer[id$="6"]::before {
+    background-image: var(--mascot-general-6, var(--mascot-general-4, var(--mascot-general-2, var(--mascot-general-0, var(--mascot-6, var(--mascot-4, var(--mascot-2, var(--mascot-0))))))));
+    background-position: var(--mascot-general-6-pos, var(--mascot-general-4-pos, var(--mascot-general-2-pos, var(--mascot-general-0-pos, var(--mascot-6-pos, var(--mascot-4-pos, var(--mascot-2-pos, var(--mascot-0-pos, var(--mascot-pos)))))))));
+    background-size: var(--mascot-general-6-size, var(--mascot-general-4-size, var(--mascot-general-2-size, var(--mascot-general-0-size, var(--mascot-6-size, var(--mascot-4-size, var(--mascot-2-size, var(--mascot-0-size, var(--mascot-size)))))))));
+}
+
+body.is_thread .thread>.opContainer[id$="7"]::before {
+    background-image: var(--mascot-general-7, var(--mascot-general-5, var(--mascot-general-3, var(--mascot-general-1, var(--mascot-general-0, var(--mascot-7, var(--mascot-5, var(--mascot-3, var(--mascot-1, var(--mascot-0))))))))));
+    background-position: var(--mascot-general-7-pos, var(--mascot-general-5-pos, var(--mascot-general-3-pos, var(--mascot-general-1-pos, var(--mascot-general-0-pos, var(--mascot-7-pos, var(--mascot-5-pos, var(--mascot-3-pos, var(--mascot-1-pos, var(--mascot-0-pos, var(--mascot-pos)))))))))));
+    background-size: var(--mascot-general-7-size, var(--mascot-general-5-size, var(--mascot-general-3-size, var(--mascot-general-1-size, var(--mascot-general-0-size, var(--mascot-7-size, var(--mascot-5-size, var(--mascot-3-size, var(--mascot-1-size, var(--mascot-0-size, var(--mascot-size)))))))))));
+}
+
+body.is_thread .thread>.opContainer[id$="8"]::before {
+    background-image: var(--mascot-general-8, var(--mascot-general-6, var(--mascot-general-4, var(--mascot-general-2, var(--mascot-general-0, var(--mascot-8, var(--mascot-6, var(--mascot-4, var(--mascot-2, var(--mascot-0))))))))));
+    background-position: var(--mascot-general-8-pos, var(--mascot-general-6-pos, var(--mascot-general-4-pos, var(--mascot-general-2-pos, var(--mascot-general-0-pos, var(--mascot-8-pos, var(--mascot-6-pos, var(--mascot-4-pos, var(--mascot-2-pos, var(--mascot-0-pos, var(--mascot-pos)))))))))));
+    background-size: var(--mascot-general-8-size, var(--mascot-general-6-size, var(--mascot-general-4-size, var(--mascot-general-2-size, var(--mascot-general-0-size, var(--mascot-8-size, var(--mascot-6-size, var(--mascot-4-size, var(--mascot-2-size, var(--mascot-0-size, var(--mascot-size)))))))))));
+}
+
+body.is_thread .thread>.opContainer[id$="9"]::before {
+    background-image: var(--mascot-general-9, var(--mascot-general-7, var(--mascot-general-5, var(--mascot-general-3, var(--mascot-general-1, var(--mascot-general-0, var(--mascot-9, var(--mascot-7, var(--mascot-5, var(--mascot-3, var(--mascot-1, var(--mascot-0))))))))))));
+    background-position: var(--mascot-general-9-pos, var(--mascot-general-7-pos, var(--mascot-general-5-pos, var(--mascot-general-3-pos, var(--mascot-general-1-pos, var(--mascot-general-0-pos, var(--mascot-9-pos, var(--mascot-7-pos, var(--mascot-5-pos, var(--mascot-3-pos, var(--mascot-1-pos, var(--mascot-0-pos, var(--mascot-pos)))))))))))));
+    background-size: var(--mascot-general-9-size, var(--mascot-general-7-size, var(--mascot-general-5-size, var(--mascot-general-3-size, var(--mascot-general-1-size, var(--mascot-general-0-size, var(--mascot-9-size, var(--mascot-7-size, var(--mascot-5-size, var(--mascot-3-size, var(--mascot-1-size, var(--mascot-0-size, var(--mascot-size)))))))))))));
+}

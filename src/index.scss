@@ -1,0 +1,8 @@
+@use "./modules/variables";
+@use "./modules/sidebar";
+@use "./modules/qr";
+
+// Prevent fixed quick reply from covering thread watcher
+#thread-watcher {
+    z-index: 21 !important;
+}

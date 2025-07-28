@@ -1,0 +1,13 @@
+:root {
+    --sidebar-width: 300px;
+    --header-height: 24.4667px;
+    --banner-height: 100px;
+    --board-title-height: 28px;
+    --captcha-height: 80px;
+    --mascot-pos: center bottom;
+    --mascot-size: calc(var(--sidebar-width) - 20px) auto;
+
+    body.board_b {
+        --board-subtitle-offset: 28px;
+    }
+}

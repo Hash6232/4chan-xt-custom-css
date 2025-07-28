@@ -1,0 +1,22 @@
+#qr {
+    // Collapse height to 0 when there's no captcha
+    #t-cnt {
+        height: auto !important;
+    }
+
+    // Increase #t-cnt height back to 80px when captcha is up
+    #t-fg[style*="image"] {
+        position: relative !important;
+        height: var(--captcha-height, 80px) !important;
+    }
+
+    // Hide slider when it's not used
+    #t-slider[style*="hidden"] {
+        display: none;
+    }
+
+    // Prevent overlapping of the message on other elements
+    #t-msg:not(:empty) {
+        position: static !important;
+    }
+}

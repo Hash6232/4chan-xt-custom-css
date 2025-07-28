@@ -1,0 +1,16 @@
+{
+  "name": "4chan-xt-sidebar",
+  "version": "1.0.0",
+  "description": "Custom styling for 4chan-XT",
+  "license": "ISC",
+  "author": "Hash6232",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "sass --watch src/index.scss:dist/index.css",
+    "build:css": "sass src/index.scss dist/index.min.css --style=compressed --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}
