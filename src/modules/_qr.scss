@@ -13,9 +13,9 @@
     box-sizing: border-box;
     box-shadow: none;
 
-    // Prevent Esc keybind from hiding quick reply
     &>form {
-        display: grid !important;
+        display: flex !important; // !important prevents Esc binding from hiding QR
+        flex-direction: column;
 
         // Place /pol/ and /f/ dropdown menus above .persona
         &>select {

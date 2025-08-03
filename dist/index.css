@@ -135,7 +135,8 @@ body #bannerCnt {
   box-shadow: none;
 }
 #qr > form {
-  display: grid !important;
+  display: flex !important;
+  flex-direction: column;
 }
 #qr > form > select {
   order: -1;
