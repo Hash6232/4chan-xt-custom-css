@@ -8,7 +8,9 @@
   "main": "index.js",
   "scripts": {
     "scss:watch": "npx sass --watch src/index.scss:dist/index.css",
-    "build:css": "npx sass src/index.scss dist/index.min.css --style=compressed --no-source-map"
+    "build:all": "npm run build:css; npm run build:css-min",
+    "build:css": "npx sass src/index.scss dist/index.css",
+    "build:css-min": "npx sass src/index.scss dist/index.min.css --style=compressed --no-source-map"
   },
   "dependencies": {
     "sass": "^1.89.2"
