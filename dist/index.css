@@ -111,6 +111,9 @@ body #bannerCnt {
 #qr #t-cnt {
   height: auto !important;
 }
+#qr #t-cnt:not(:has(#t-fg[style*=image])) {
+  margin-top: 0 !important;
+}
 #qr #t-fg[style*=image] {
   position: relative !important;
   height: var(--captcha-height, 80px) !important;

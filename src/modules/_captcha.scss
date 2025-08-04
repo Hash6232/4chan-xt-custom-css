@@ -2,6 +2,11 @@
     // Collapse height to 0 when there's no captcha
     #t-cnt {
         height: auto !important;
+
+        // Remove spacing container when there's no captcha
+        &:not(:has(#t-fg[style*="image"])) {
+            margin-top: 0 !important;
+        }
     }
 
     // Increase #t-cnt height back to 80px when captcha is up
