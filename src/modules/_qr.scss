@@ -6,7 +6,10 @@
     left: 0 !important;
     width: var(--sidebar-width);
     margin-top: 10px;
-    border: 1px 0 solid;
+    border: 0;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
     border-color: var(--xt-border);
     border-radius: 0;
     box-sizing: border-box;
