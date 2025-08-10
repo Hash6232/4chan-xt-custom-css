@@ -118,6 +118,9 @@ body #bannerCnt {
   width: auto !important;
   margin: 0 !important;
 }
+#qr #t-help {
+  display: none;
+}
 #qr #t-cnt {
   height: auto !important;
 }

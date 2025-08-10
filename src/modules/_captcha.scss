@@ -15,6 +15,11 @@
         margin: 0 !important; // overrides inline styling
     }
 
+    // Hide useless button
+    #t-help {
+        display: none;
+    }
+
     // Collapse height to 0 when there's no captcha
     #t-cnt {
         height: auto !important;
