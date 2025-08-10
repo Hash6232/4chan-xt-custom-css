@@ -15,6 +15,15 @@
         margin: 0 !important; // overrides inline styling
     }
 
+    // Fit the entirety of the container
+    #t-resp {
+        flex: 1;
+
+        // Add centered styling to captcha value
+        text-align: center;
+        letter-spacing: 1em;
+    }
+
     // Hide useless button
     #t-help {
         display: none;

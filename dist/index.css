@@ -118,6 +118,11 @@ body #bannerCnt {
   width: auto !important;
   margin: 0 !important;
 }
+#qr #t-resp {
+  flex: 1;
+  text-align: center;
+  letter-spacing: 1em;
+}
 #qr #t-help {
   display: none;
 }
