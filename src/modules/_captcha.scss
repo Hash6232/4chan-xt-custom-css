@@ -1,4 +1,20 @@
 #qr {
+    // Make captcha container's width responsive
+    .captcha-root {
+        .captcha-container {
+            width: 100% !important; // overrides inline styling
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    // Remove hardcoded spacing in favor of flex spacing
+    #t-load, #t-solve {
+        width: auto !important; // overrides inline styling
+        margin: 0 !important; // overrides inline styling
+    }
+
     // Collapse height to 0 when there's no captcha
     #t-cnt {
         height: auto !important;

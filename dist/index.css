@@ -108,6 +108,16 @@ body #bannerCnt {
   border-color: var(--xt-border);
 }
 
+#qr .captcha-root .captcha-container {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#qr #t-load, #qr #t-solve {
+  width: auto !important;
+  margin: 0 !important;
+}
 #qr #t-cnt {
   height: auto !important;
 }
@@ -142,9 +152,15 @@ body #bannerCnt {
 #qr > form {
   display: flex !important;
   flex-direction: column;
+  overflow: visible;
 }
 #qr > form > select {
   order: -1;
+}
+#qr > form .textarea textarea.field {
+  min-width: auto;
+  flex: 1;
+  resize: vertical;
 }
 #qr .move > *:not(select) {
   display: none;

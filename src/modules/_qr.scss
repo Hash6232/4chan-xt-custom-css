@@ -16,12 +16,26 @@
     box-shadow: none;
 
     &>form {
-        display: flex !important; // !important prevents Esc binding from hiding QR
+        display: flex !important; // overrides inline styling
         flex-direction: column;
+
+        // Makes inner containers scale down instead of overflowing
+        overflow: visible;
 
         // Place /pol/ and /f/ dropdown menus above .persona
         &>select {
             order: -1;
+        }
+
+        // Make textarea field fit its container
+        .textarea {
+            textarea.field {  
+                min-width: auto;
+                flex: 1;
+
+                // Prevent horizontal resizing
+                resize: vertical;
+            }
         }
     }
 
