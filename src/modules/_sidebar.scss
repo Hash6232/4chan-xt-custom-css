@@ -17,13 +17,13 @@ body {
     }
 
     // Move board banner and title inside sidebar
-    & > .boardBanner {
+    & > div.boardBanner {
         position: fixed;
         top: var(--header-height);
         left: 0;
         width: var(--sidebar-width);
 
-        .boardTitle {
+        div.boardTitle {
             font-size: 2em;
         }
     }

@@ -91,13 +91,13 @@ body.is_index .board::before, body.is_thread .thread > .opContainer::before {
   border-right: 1px solid var(--xt-border);
   z-index: -1;
 }
-body > .boardBanner {
+body > div.boardBanner {
   position: fixed;
   top: var(--header-height);
   left: 0;
   width: var(--sidebar-width);
 }
-body > .boardBanner .boardTitle {
+body > div.boardBanner div.boardTitle {
   font-size: 2em;
 }
 body #bannerCnt {
