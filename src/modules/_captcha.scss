@@ -18,6 +18,12 @@
     // Fit the entirety of the container
     #t-resp {
         flex: 1;
+        letter-spacing: 1em;
+
+        // Defuse letter spacing for placeholder text
+        &::placeholder {
+            letter-spacing: 0;
+        }
 
         // Add centered styling to captcha value
         text-align: center;

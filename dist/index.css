@@ -120,7 +120,11 @@ body #bannerCnt {
 }
 #qr #t-resp {
   flex: 1;
+  letter-spacing: 1em;
   text-align: center;
+}
+#qr #t-resp::placeholder {
+  letter-spacing: 0;
 }
 #qr #t-help {
   display: none;
