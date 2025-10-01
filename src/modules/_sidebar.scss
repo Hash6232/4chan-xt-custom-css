@@ -16,6 +16,11 @@ body {
         z-index: -1;
     }
 
+    // Aligns birthday party hat to OP
+    #delform > .board > .thread {
+        position: relative;
+    }
+
     // Move board banner and title inside sidebar
     & > div.boardBanner {
         position: fixed;

@@ -91,6 +91,9 @@ body.is_index .board::before, body.is_thread .thread > .opContainer::before {
   border-right: 1px solid var(--xt-border);
   z-index: -1;
 }
+body #delform > .board > .thread {
+  position: relative;
+}
 body > div.boardBanner {
   position: fixed;
   top: var(--header-height);
@@ -121,10 +124,12 @@ body #bannerCnt {
 #qr #t-resp {
   flex: 1;
   letter-spacing: 1em;
-  text-align: center;
 }
 #qr #t-resp::placeholder {
   letter-spacing: 0;
+}
+#qr #t-resp {
+  text-align: center;
 }
 #qr #t-help {
   display: none;
